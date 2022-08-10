@@ -3,7 +3,6 @@ const mapBox = document.getElementById('map');
 
 if (mapBox) {
   const locations = JSON.parse(mapBox.dataset.locations);
-  console.log(locations);
 
   mapboxgl.accessToken =
     'pk.eyJ1IjoibG92aXNoMjYiLCJhIjoiY2w1bms1Mmt5MTRsYzNjbWc5eHE5bXYzayJ9.uajQWUhUNV1VTlxJat-0DQ';
