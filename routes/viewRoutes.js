@@ -7,6 +7,7 @@ const router = express.Router();
 
 router.use(viewsController.alerts);
 
+router.get('/signup', viewsController.getSignUpForm);
 router.get(
   '/',
   // bookingController.createBookingCheckout,
