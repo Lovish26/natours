@@ -15,4 +15,4 @@ const showAlert = (type, msg, time = 7) => {
 
 // This is implemented for alerts that comes from query
 const alertMessage = document.querySelector('body').dataset.alert;
-if (alert) showAlert('success', alertMessage, 20), alertMessage;
+if (alertMessage) showAlert('success', alertMessage, 20), alertMessage;
